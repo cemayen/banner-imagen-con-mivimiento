@@ -1,0 +1,11 @@
+.banner{
+	background-size: 200%;
+    animation: movimiento 15s infinite linear alternate;
+}
+@keyframes movimiento{
+	from{
+			background-position: bottom left;
+		}to{
+			background-position: top right;
+		}
+}
